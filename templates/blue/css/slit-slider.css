@@ -13,8 +13,6 @@
 	position: relative;
 }
 
-
-
 .bg-img {
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -155,13 +153,13 @@
 }
 
 .bg-img-1 {
-	background-image: url(../img/slider/banner.jpg);
+	background-image: url(https://res.cloudinary.com/roboticleads/image/upload/v1709906349/blue-template/slider/banner_hm2qpm.jpg);
 }
 .bg-img-2 {
-	background-image: url(../img/slider/affinity.jpeg);
+	background-image: url(https://res.cloudinary.com/roboticleads/image/upload/v1709906349/blue-template/slider/affinity_dz6khd.jpg);
 }
 .bg-img-3 {
-	background-image: url(../img/slider/cinelli.jpeg);
+	background-image: url(https://res.cloudinary.com/roboticleads/image/upload/v1709906351/blue-template/slider/cinelli_sbju8p.jpg);
 }
 
 
