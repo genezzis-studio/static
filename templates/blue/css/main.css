@@ -486,7 +486,7 @@ h1.navbar-brand {
 /* Project laughtbox setup */
 
 .fancybox-item.fancybox-close {
-    background: url("../img/icons/close.png") no-repeat scroll 0 0 transparent;
+    background: url("https://res.cloudinary.com/roboticleads/image/upload/v1709906359/blue-template/icons/close_eezodm.png") no-repeat scroll 0 0 transparent;
     height: 50px;
     right: 0;
     top: 0;
@@ -494,14 +494,14 @@ h1.navbar-brand {
 }
 
 .fancybox-next span {
-    background: url("../img/right.png") no-repeat scroll center center #009ee3;
+    background: url("https://res.cloudinary.com/roboticleads/image/upload/v1709906371/blue-template/icons/right_yv9t6h.png") no-repeat scroll center center #009ee3;
     height: 50px;
     width: 50px;
     right: 0;
 }
 
 .fancybox-prev span {
-    background: url("../img/left.png") no-repeat scroll center center #009ee3;
+    background: url("https://res.cloudinary.com/roboticleads/image/upload/v1709906364/blue-template/icons/left_yeje2x.png") no-repeat scroll center center #009ee3;
     height: 50px;
     width: 50px;
     left: 0;
@@ -725,9 +725,8 @@ ul.external li a:hover {
 	Testimonials
 ==================================================================*/
 
-
 #testimonials {
-    background-image: url(../img/parallax/testimonial.jpg);
+    background-image: url(https://res.cloudinary.com/roboticleads/image/upload/v1709906343/blue-template/parallax/testimonial_u1ukja.jpg);
     padding: 0;
     color: #fff;
 }
@@ -761,7 +760,7 @@ ul.external li a:hover {
 }
 
 .testimonial-item > div:before {
-    background-image: url("../img/icons/quotes.png");
+    background-image: url("https://res.cloudinary.com/roboticleads/image/upload/v1709906369/blue-template/icons/quotes_ufj3ge.png");
     background-repeat: no-repeat;
     bottom: 127px;
     height: 33px;
@@ -771,7 +770,7 @@ ul.external li a:hover {
 }
 
 .testimonial-item > div:after {
-    background-image: url("../img/icons/quotes.png");
+    background-image: url("https://res.cloudinary.com/roboticleads/image/upload/v1709906369/blue-template/icons/quotes_ufj3ge.png");
     background-position: -58px 0;
     background-repeat: no-repeat;
     bottom: -50px;
@@ -897,12 +896,12 @@ ul.external li a:hover {
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/banner.jpg);
+    background-image: url(https://res.cloudinary.com/roboticleads/image/upload/v1709906349/blue-template/slider/banner_hm2qpm.jpg);
     padding: 0;
 }
 
 #social .overlay {
-    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
+    background: url("https://res.cloudinary.com/roboticleads/image/upload/v1709906356/blue-template/slide_bg_lkgznn.png") repeat scroll 0 0 transparent;
     padding: 100px 0 120px;
 }
 
