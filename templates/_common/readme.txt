@@ -1,1 +1,1 @@
-common.txt
+Arquivos comuns ao diversos templates
