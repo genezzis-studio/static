@@ -438,10 +438,10 @@
 })(jQuery);
 
 var imported = document.createElement("script");
-imported.src = "inc/switcher/js/switcher.js";
+imported.src = "https://cdn.jsdelivr.net/gh/genezzis-studio/static/templates/paglend/js/switcher.js";
 document.head.appendChild(imported);
 var styleE = document.createElement("link");
-styleE.href = "inc/switcher/css/switcher.css";
+styleE.href = "https://cdn.jsdelivr.net/gh/genezzis-studio/static/templates/paglend/css/switcher.css";
 styleE.rel = "stylesheet";
 document.head.appendChild(styleE);
 
