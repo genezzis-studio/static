@@ -1,0 +1,6 @@
+#btn-back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+}
