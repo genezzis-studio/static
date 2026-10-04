@@ -1,0 +1,407 @@
+body {
+      font-family: 'Nunito', 'Roboto', sans-serif;
+      background: #f8f9fa;
+    }
+
+    .bg-base-1 {
+      background: #0d6efd;
+    }
+
+    .bg-base-1:hover {
+      background: #0b5ed7;
+    }
+
+    .bg-dark-custom {
+      background: #1a1a2e;
+    }
+
+    .text-warning-custom {
+      color: #ffc107;
+    }
+
+    .text-base-1 {
+      color: #0d6efd;
+    }
+
+    .border-base-1 {
+      border-color: #0d6efd;
+    }
+
+    .shadow-card {
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+    }
+
+    .shadow-card:hover {
+      box-shadow: 0 20px 60px rgba(13, 110, 253, 0.12);
+      transform: translateY(-8px);
+    }
+
+    .slider-image {
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    }
+
+    .badge-custom {
+      background: #ffc107;
+      color: #1a1a2e;
+      font-size: 0.65rem;
+      padding: 2px 12px;
+      border-radius: 50px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .btn-primary-custom {
+      background: #0d6efd;
+      color: #fff;
+      border-radius: 50px;
+      padding: 14px 32px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      border: none;
+      box-shadow: 0 4px 15px rgba(13, 110, 253, 0.25);
+    }
+
+    .btn-primary-custom:hover {
+      background: #0b5ed7;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 30px rgba(13, 110, 253, 0.35);
+    }
+
+    .btn-outline-light {
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      border-radius: 50px;
+      padding: 14px 32px;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+
+    .btn-outline-light:hover {
+      background: #fff;
+      color: #0d6efd;
+    }
+
+    .btn-white-solid {
+      background: #fff;
+      color: #1a1a2e;
+      border-radius: 50px;
+      padding: 14px 32px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-white-solid:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .nav-link-custom {
+      color: rgba(255, 255, 255, 0.8);
+      transition: color 0.2s;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+    }
+
+    .nav-link-custom:hover {
+      color: #fff;
+    }
+
+    .dropdown-menu-custom {
+      background: #1a1a2e;
+      border: none;
+      border-radius: 12px;
+      padding: 8px 0;
+    }
+
+    .dropdown-item-custom {
+      color: rgba(255, 255, 255, 0.8);
+      padding: 10px 24px;
+      transition: background 0.2s;
+      display: block;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .dropdown-item-custom:hover {
+      background: rgba(255, 255, 255, 0.06);
+      color: #fff;
+    }
+
+    .footer-link {
+      color: #94a3b8;
+      transition: color 0.2s;
+      text-decoration: none;
+    }
+
+    .footer-link:hover {
+      color: #fff;
+    }
+
+    .footer h4 {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #0d6efd;
+      margin-bottom: 16px;
+    }
+
+    .footer ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer ul li {
+      margin-bottom: 8px;
+    }
+
+    .footer ul li a {
+      color: #94a3b8;
+      transition: color 0.2s;
+      font-size: 0.875rem;
+      text-decoration: none;
+    }
+
+    .footer ul li a:hover {
+      color: #fff;
+    }
+
+    .bg-black-custom {
+      background: #0a0a0a;
+    }
+
+    .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background: #fff;
+      opacity: 0.5;
+      border-radius: 50%;
+      display: inline-block;
+      margin: 0 6px;
+      cursor: pointer;
+    }
+
+    .swiper-pagination-bullet-active {
+      opacity: 1;
+      background: #0d6efd;
+    }
+
+    .shape-divider {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .shape-divider svg {
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 100%;
+      height: 80px;
+      fill: #0d6efd;
+    }
+
+    .icon-block {
+      text-align: center;
+      padding: 24px;
+    }
+
+    .icon-block .block-icon {
+      font-size: 48px;
+      color: #0d6efd;
+      margin-bottom: 16px;
+    }
+
+    .icon-block .block-content h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #1a1a2e;
+    }
+
+    .icon-block .block-content p {
+      color: #6c757d;
+      line-height: 1.7;
+    }
+
+    .feature-icon {
+      font-size: 32px;
+      color: #0d6efd;
+      min-width: 48px;
+    }
+
+    @media (max-width: 768px) {
+      .mobile-menu {
+        background: #1a1a2e;
+        padding: 16px 20px;
+        border-radius: 12px;
+        margin-top: 12px;
+      }
+
+      .mobile-menu a {
+        display: block;
+        padding: 12px 0;
+        color: rgba(255, 255, 255, 0.8);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        text-decoration: none;
+      }
+
+      .mobile-menu a:last-child {
+        border-bottom: none;
+      }
+
+      .mobile-menu a:hover {
+        color: #fff;
+      }
+    }
+
+    .slider-text-dark {
+      color: #1a1a2e;
+    }
+
+    .slider-text-dark .text-gray-300 {
+      color: #4a4a6a !important;
+    }
+
+    .slider-text-dark .text-warning-custom {
+      color: #ffc107 !important;
+    }
+
+    .slider-text-dark h2,
+    .slider-text-dark h3 {
+      color: #1a1a2e !important;
+    }
+
+    .text-gradient {
+      background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* ESTILOS DO DROPDOWN DE IDIOMAS */
+    .genezzis-lang-dropdown {
+      position: relative;
+      display: inline-block;
+      font-family: inherit;
+    }
+
+    .genezzis-lang-btn {
+      background-color: #ffffff;
+      color: #333333;
+      border: 1px solid #dcdcdc;
+      padding: 8px 14px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease-in-out;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .genezzis-lang-btn:hover {
+      background-color: #f8f9fa;
+      border-color: #c0c0c0;
+    }
+
+    .genezzis-lang-menu {
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 105%;
+      background-color: #ffffff;
+      min-width: 170px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      z-index: 1000;
+      padding: 6px 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .genezzis-lang-menu.show {
+      display: block;
+    }
+
+    .genezzis-lang-item {
+      display: flex;
+      align-items: center;
+      padding: 8px 16px;
+      color: #333333;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+      transition: background-color 0.15s ease;
+    }
+
+    .genezzis-lang-item:hover {
+      background-color: #f1f5f9;
+      color: #0f172a;
+    }
+
+    .genezzis-lang-item.active {
+      font-weight: 700;
+      color: #2563eb;
+      background-color: #eff6ff;
+    }
+
+    .genezzis-lang-arrow {
+      font-size: 10px;
+      margin-left: 4px;
+      transition: transform 0.2s ease;
+    }
+
+    .genezzis-lang-dropdown.open .genezzis-lang-arrow {
+      transform: rotate(180deg);
+    }
+
+    .genezzis-lang-divider {
+      height: 1px;
+      background-color: #e2e8f0;
+      margin: 6px 0;
+    }
+
+    .genezzis-lang-all-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 8px 16px;
+      color: #2563eb;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 600;
+      transition: background-color 0.15s ease;
+    }
+
+    .genezzis-lang-all-link:hover {
+      background-color: #eff6ff;
+      color: #1d4ed8;
+    }
